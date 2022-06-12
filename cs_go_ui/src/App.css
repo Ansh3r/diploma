@@ -108,6 +108,12 @@ body{
 	transform: translate(-50%,-50%);
 }
 
+
+.left-side{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 0px;
+}
 .first-view-logged {
 	position: absolute;
 	width: 30%;
@@ -516,6 +522,12 @@ body{
 	font-weight: 700;
 }
 
+.date{
+	color: #769ba8;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
 .textComment{
 	font-size: 16px;
 	font-weight: 700;
@@ -525,11 +537,20 @@ body{
 .comm__img{
 	font-size: 16px;
 }
-.on-profile{
-	display: flex;
-	justify-content: end;
-}
 
+.right-button{
+	color: #587e8c;
+    border: 1px solid #587e8c;
+    cursor: pointer;
+    padding: 7px 20px 8px 20px;
+    font-size: 13px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+	float: right;
+}
 
 .review-content {
 	display: flex;
@@ -539,6 +560,15 @@ body{
 	display: flex;
 	justify-content: center;
 }
+
+.img-comm {
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin-right: 5px;
+	float:left;
+}
+
 
 .account-data{
 	display: flex;
@@ -625,8 +655,10 @@ body{
 	justify-content: center;
 	margin-top: 5px;
 }
-.left-side-block{
-	display: flex;
+
+
+.textiRate{
+	display: block;
 }
 
 .user__comment{
