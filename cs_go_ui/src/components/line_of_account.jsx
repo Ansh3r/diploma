@@ -58,7 +58,7 @@ export default function Line_account({_object, account, default_link})
           <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={7}>
             <Collapse in={show_arr} timeout="auto" unmountOnExit>
               <Box sx={{ margin: 1 }}>
-              <Typography id='table-items' variant="h6" gutterBottom component="div"> Ссылка на обмен: {_object.trade_url} </Typography>
+              <Typography id='table-items' variant="h6" gutterBottom component="div"> Ссылка на обмен: <a href={_object.trade_url}>{_object.trade_url}</a> </Typography>
                 <Typography id='table-items' variant="h6" gutterBottom component="div">Наименование объекта</Typography>
                 <Table size="small" aria-label="purchases">
                   <TableBody>

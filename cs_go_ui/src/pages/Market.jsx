@@ -89,7 +89,7 @@ function Market({default_link_market, logged_in_market, account})
                 total_price:_cost, 
                 wallet
             }, {withCredentials: true})
-            alert("Заявка создана");
+            alert("Заявка создана. В течении 10 минут администратор вышлет предложение об обмене в Steam, необходимо его принять");
         }
         else 
         {
